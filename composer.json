@@ -1,0 +1,21 @@
+{
+    "name": "thomaswormann/throttle",
+    "description": "PSR-7 middleware to limit requests",
+    "homepage": "https://github.com/thomaswormann/throttle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Wormann",
+            "email": "mail@thomaswormann.com",
+            "homepage": "http://thomaswormann.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThomasWormann\\Throttle\\": "src/"
+        }
+    }
+}
